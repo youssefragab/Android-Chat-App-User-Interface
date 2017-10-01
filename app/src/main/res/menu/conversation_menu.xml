@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Delete"
+        android:id="@+id/delete"
+
+        />
+
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Block"
+        android:id="@+id/block"
+
+        />
+
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Clear Chat"
+        android:id="@+id/clear"
+
+        />
+
+</menu>

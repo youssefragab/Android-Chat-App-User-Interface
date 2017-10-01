@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/more"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rv_color="#939393"
+    app:rv_rippleDuration="200"
+    rv_centered="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#fff">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/user_image"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_image"
+            android:textSize="19sp"
+            android:textColor="#000"
+            android:alpha="0.8"
+            android:text="youssef mousa"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="7dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/user_name"
+            />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="View"
+            android:textColor="#eee"
+            android:textSize="12sp" />
+
+
+
+
+
+    </RelativeLayout>
+</com.andexert.library.RippleView>

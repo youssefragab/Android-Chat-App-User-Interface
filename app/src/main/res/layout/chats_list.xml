@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/more"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rv_color="#939393"
+    app:rv_rippleDuration="200"
+    rv_centered="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/user_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user_image"
+        android:textSize="19sp"
+        android:textColor="#000"
+        android:alpha="0.8"
+        android:text="youssef mousa"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/user_name"
+        />
+
+    <TextView
+        android:id="@+id/last_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user_image"
+        android:layout_below="@id/user_name"
+        android:textSize="12sp"
+        android:textColor="#545454"
+        android:alpha="0.8"
+        android:text="hey there!"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#545454"
+        android:alpha="0.8"
+        android:text="9:45"
+        android:layout_marginLeft="6dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        />
+
+</RelativeLayout>
+</com.andexert.library.RippleView>
